@@ -4,9 +4,7 @@ import SignUpScreen from './Screen/signUp';
 import SignInScreen from './Screen/signIn/index'
 import BookingScreen from './Screen/bookingScreen/bookingScreen'
 import DashBoard from './Screen/admin/dashBoard';
-// import AdminScreen from './Screen/admin/adminScreen'
-// import PageNotFound from './Screen/pageNotFound/pageNotFound'
-// import React from 'react'
+
 const routesHome = [{
         path: '/',
         exact: true,
@@ -39,10 +37,6 @@ const routesAdmin = [{
         exact: false,
         component: DashBoard
     },
-    // {
-    //     path:'/admin',
-    //     exact: false,
-    //     component: AdminScreen
-    // }
+
 ]
 export { routesHome, routesAdmin }

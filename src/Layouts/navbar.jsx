@@ -42,11 +42,9 @@ class Navbar extends Component {
                         offset={-70}
                         duration={500}
                         className='nav-item active'>
-                        <NavLink style={{ color: 'red' }} className='nav-link' exact to='/'>
-                            <h3 className='styleLogo'>
-                                CIN<span>E</span>MA
-                            </h3>
-                        </NavLink>
+                        <h3 className='styleLogo'>
+                            CIN<span>E</span>MA
+                        </h3>
                     </Link>
 
                     <button className='navbar-toggler'
